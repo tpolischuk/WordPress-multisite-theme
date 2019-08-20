@@ -1,0 +1,57 @@
+
+.plos-collections .utility-nav {
+    padding-top: 0.3rem;
+}
+.plos-collections .utility-nav li {
+    // margin-right: 0.3rem;
+}
+.plos-collections .utility-nav li:last-child {
+    margin-right: 0;
+}
+.plos-collections .utility-nav li a {
+    font-family: georgia;
+    font-size: 0.675rem;
+}
+
+.plos-collections .utility-nav a {
+    font-weight: normal;
+    padding: 7px 7px;
+    padding: 0.35rem 0.45rem;
+    text-transform: uppercase;
+}
+.plos-collections .utility-nav li.right {
+    margin: 0;
+}
+.plos-collections .utility-nav a:hover,
+.plos-collections .utility-nav a:focus,
+.plos-collections .utility-nav a:active {
+    background-color: $brown;
+    color: #fff;
+    cursor: pointer;
+}
+.plos-collections .utility-nav li.sfHover a.sf-with-ul {
+    background: $dark-gray;
+    color: white;
+}
+.plos-collections .utility-nav li.sfHover ul li a.sf-with-ul {
+    background: white;
+    color: $light-gray;
+}
+.plos-collections .utility-nav li.sfHover ul li a.sf-with-ul:hover,
+.plos-collections .utility-nav li.sfHover ul li a.sf-with-ul:focus,
+.plos-collections .utility-nav li.sfHover ul li a.sf-with-ul:active {
+    background: $brown;
+    color: white;
+}
+.plos-collections .utility-nav li.sfHover ul li.sfHover a.sf-with-ul {
+    background: $brown;
+    color: white;
+}
+.plos-collections .utility-nav ul li a:hover,
+.plos-collections .utility-nav ul li a:focus,
+.plos-collections .utility-nav ul li a:active {
+    background: $brown;
+}
+.plos-collections .sub-menu {
+   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+}

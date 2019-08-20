@@ -1,0 +1,264 @@
+/* iPhones (portrait and landscape) ----------- */
+
+@media only screen and (max-width: 480px) {
+  // ===============================================
+  // // Site Header, including menus
+  // ===============================================
+
+  .site-container {
+    overflow-x: hidden;
+  }
+
+  .site-header {
+    margin: 20px 0 25px;
+  }
+
+  .site-header #title {
+    margin: 0;
+  }
+
+  header .search-form {
+    width: 100%;
+  }
+
+  .header-full-width #title a.logo {
+    margin: 0 0 0 15px;
+    width: 180px;
+    float: left;
+  }
+
+  .tertiary-nav .genesis-nav-menu a {
+    padding: 0.9rem 1rem;
+  }
+
+  .genesis-nav-menu {
+    overflow: visible;
+    position: relative;
+  }
+
+  ul.genesis-nav-menu li:hover > ul,
+  ul.genesis-nav-menu li.sfHover ul,
+  header .genesis-nav-menu li:hover > ul,
+  header .genesis-nav-menu li.sfHover ul {
+    width: 100%;
+  }
+
+  .genesis-nav-menu li {
+    display: block;
+    float: none;
+    text-align: center;
+  }
+
+  .local-nav .genesis-nav-menu a {
+    border-bottom: 1px solid #4a4a4a;
+    border-right: medium none;
+    padding: 15px 25px;
+    font-size: 18px;
+  }
+
+  .menu-trigger {
+    right: 0px;
+    top: 25px;
+    left: auto;
+  }
+
+  .plos-banner-text {
+    font-size:20px;
+    padding-top:4px;
+    padding-left:5px;
+  }
+
+  // ===============================================
+  // // Page Layout
+  // ===============================================
+
+  .archive-page,
+  .five-sixths,
+  .four-fifths,
+  .four-sixths,
+  .one-fifth,
+  .one-fourth,
+  .one-half,
+  .one-sixth,
+  .one-third,
+  .three-fifths,
+  .three-fourths,
+  .three-sixths,
+  .two-fifths,
+  .two-fourths,
+  .two-sixths,
+  .two-thirds {
+    margin: 0;
+    width: auto;
+  }
+
+  // INDIVIDUAL BLOG HOME PAGES
+  .home {
+    .topics-featured-image.height-cropped {
+      margin: 0 -15px 7px;
+    }
+
+    .post-list {
+      min-height: auto;
+    }
+
+    .site-container main {
+      margin: 0;
+    }
+  }
+
+  .category-list-section {
+    margin-bottom: 26px;
+  }
+
+  .single .entry-content p,
+  .single .entry-content ul,
+  .single .entry-content blockquote p,
+  .faq-section .panel-body > p {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .author-image {
+    float: none;
+    height: 100px;
+    margin: 0 auto 0.5rem;
+    width: 100px;
+  }
+  .author-header {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .author-header > h3 {
+    float: none;
+    margin: 0 auto 0.5rem;
+    text-align: center;
+  }
+  .author-links {
+    display: table;
+    float: none;
+    list-style: outside none none;
+    margin: 0 auto 1rem;
+    width: auto;
+  }
+
+  .banner-logo {
+    width: 200px;
+  }
+  pre {
+    display: none;
+  }
+  .mobile-search #header_searchform input#s[type="text"],
+  .mobile-search .search-form input[type="search"] {
+    width: 71%;
+  }
+  .mobile-search input[type="submit"],
+  .mobile-search #header_searchform input#searchsubmit {
+    width: 25%;
+  }
+  .banner.banner-text-css.has-text {
+    height: 80px;
+  }
+  h1.banner-logo {
+    font-size: 1.5rem;
+    margin: 0 auto;
+  }
+  .entry-content figure {
+    max-width:100% !important;
+  }
+
+
+  // ===============================================
+  // // Collections Blog Home Page
+  // ===============================================
+
+  .category-list {
+    margin: 0 15px 40px;
+    min-height: auto;
+  }
+
+  // ===============================================
+  // // Multisite Landing Page
+  // ===============================================
+
+  .multisite-landing {
+
+    .post-excerpts .entry-body {
+      width: 75%;
+    }
+
+    .recently-featured {
+      margin: 0 25px;
+    }
+
+    .featured-image {
+      margin: 0 -25px 8px;
+    }
+
+    .post-excerpts .featured-image {
+      margin-right: 10px;
+    }
+
+    .post-excerpts .row {
+      padding: 0 25px;
+    }
+
+    .landing-excerpt-image {
+      margin: 0 -25px 6px;
+    }
+  }
+
+  // ===============================================
+  // // Footer
+  // ===============================================
+
+  .footer-container .logo {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-container .logo > img {
+    width: 180px;
+  }
+  .genesis-nav-menu.footer-menu li.btn {
+    position: relative;
+    margin: 0 auto;
+    width: auto;
+    display: table;
+  }
+  .genesis-nav-menu.footer-menu.footer-utilities li {
+    margin: 0 auto;
+  }
+  .genesis-nav-menu.footer-menu .rss-feed-icon a {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .site-footer .genesis-nav-menu a {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .site-footer .one-third:first-child {
+    padding-bottom: 0;
+  }
+
+}
+
+/*PLOS STYLES*/
+.banner img {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/*Take away padding for banners that are below .site-inner*/
+.banner {
+  padding-bottom: 23px;
+  padding-bottom: 1.8rem;
+}
+.bordered {
+  padding: 20px;
+  margin-bottom: 20px;
+}

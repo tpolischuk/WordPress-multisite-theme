@@ -1,0 +1,38 @@
+/* 04h - Featured Collection ----------- */
+// .plos_featured_collection {
+//     background: none repeat scroll 0 0 springgreen;
+//     margin-bottom: 2rem;
+// }
+.fc-header {
+	background: $blue;
+	color: white;
+	padding: 19px 23px;
+    padding: 1rem 1.4rem;
+}
+.fc-header > h2 {
+    // font-size: 1.1rem;
+ 	@include font-size(1.25);
+    margin: 0;
+}
+.plos_featured_collection .entry-content {
+    background: rgba(255, 255, 255, 0.85) none repeat scroll 0 0;
+    padding: 17px 14px;
+}
+
+.plos_featured_collection .entry-content h1,
+.plos_featured_collection .entry-content h2,
+.plos_featured_collection .entry-content h3,
+.plos_featured_collection .entry-content h4,
+.plos_featured_collection .entry-content h5,
+.plos_featured_collection .entry-content h6 {
+	color: black;
+	@include font-size(1.125);
+}
+.bg-cover-img {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    padding: 25px 23px 30px;
+    padding: 1.5rem 1.5rem 1.9rem;
+}

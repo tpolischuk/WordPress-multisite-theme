@@ -1,0 +1,22 @@
+// Flexbox ordering and styles for each widget we use at genesis-plos collections
+.widget.popular-posts {
+    //background: wheat none repeat scroll 0 0;
+    order: 1;
+}
+.widget.widget_sp_image {
+    //background: violet none repeat scroll 0 0;
+    order: 2;
+}
+.widget.widget_topics-recent_post_widget {
+    //background: gainsboro none repeat scroll 0 0;
+	order: 3;
+}
+.widget.featured-collection {
+    //background: gold none repeat scroll 0 0;
+    width: 100%;
+    order: 4;
+}
+.sidebar .widget.widget_archive {
+	//background: teal;
+	order: 5;
+}

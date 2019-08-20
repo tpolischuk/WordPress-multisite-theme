@@ -1,0 +1,25 @@
+.panel-heading {
+    padding: 0;
+}
+.panel-title {
+    position: relative;
+}
+.panel-title > a,
+.panel-title > small,
+.panel-title > .small,
+.panel-title > small > a,
+.panel-title > .small > a {
+    color: inherit;
+    display: block;
+    padding: 10px 15px;
+    width: 100%;
+}
+.faq-section .panel-body {
+    padding: 1rem 2rem;
+}
+.faq .linkwithin_hook {
+    display: none;
+}
+.single-faq .entry-content ul li::before {
+	display: none;
+}

@@ -1,0 +1,52 @@
+.navigation li {
+	display: inline;
+}
+
+.navigation li a,
+.navigation li a:hover,
+.navigation li.active a,
+.navigation li.disabled {
+	background-color: #1e1e1e;
+	border-radius: 3px;
+	cursor: pointer;
+	padding: 12px;
+	padding: 0.75rem;
+}
+
+.navigation li a:hover,
+.navigation li.active a {
+	background-color: $blue;
+}
+.post-navigation h2.screen-reader-text {
+    display: none;
+}
+.post-navigation {
+    clear: both;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.post-navigation a {
+    color: $blue;
+    font-family: arial, sans-serif;
+    // font-size: 0.7rem;
+  	@include font-size(0.75);
+}
+.post-navigation .nav-previous {
+    float: left;
+}
+.post-navigation .nav-next {
+    float: right;
+}
+.post-navigation .fa {
+    font-size: 0.5rem;
+    position: relative;
+    top: -1px;
+}
+.post-navigation .fa-chevron-left {
+    padding-right: 3px;
+}
+.post-navigation .fa-chevron-right {
+    padding-left: 1px;
+}

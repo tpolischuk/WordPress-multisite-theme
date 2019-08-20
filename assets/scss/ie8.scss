@@ -1,0 +1,10 @@
+// Everyone Hates IE8
+.ie8 body {
+    background-color: black;
+}
+.ie8 #header_searchform {
+  width:170px;
+}
+.ie8 #header_searchform input#s {
+    width: 99px;
+}

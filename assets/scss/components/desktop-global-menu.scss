@@ -1,0 +1,75 @@
+
+// Desktop Global Menu
+.desktop-global-menu {
+    padding: 0 0.3rem;
+}
+.desktop-global-menu.genesis-nav-menu a {
+    color: $darker-gray;
+    font-family: georgia;
+    font-size: 12px;
+    font-size: 0.7rem;
+    padding: 0.5rem 0.8rem;
+    text-transform: uppercase;
+}
+.desktop-global-menu .current-menu-item a {
+  background-color: #555;
+  color: red;
+  cursor: pointer;
+}
+.desktop-global-menu.genesis-nav-menu a:hover {
+    background: $dark-gray;
+    color: white;
+    cursor: pointer;
+}
+.genesis-nav-menu.genesis-nav-menu li li a:hover {
+    background: $brown;
+    color: white;
+}
+
+.desktop-global-menu .menu-item-has-children a::after {
+    content: "↓";
+    padding-left: 5px;
+    position: relative;
+}
+.rss-feed-icon.menu-item {
+    background: transparent url("../images/feed-icon-14x14.png") no-repeat scroll 83px 5px;
+    display: block;
+    height: 21px;
+    position: relative;
+}
+
+// Global_Desktop_Menu Search Form
+.desktop-global-menu form {
+    display: inline-block;
+    float: right;
+    height: auto;
+    margin: 2px 0 0;
+    width: 180px;
+}
+
+.desktop-global-menu form input#s {
+    background: none repeat scroll 0 0 #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1) inset;
+    float: left;
+    margin-right: 4px;
+    padding: 2px 8px;
+    width: 105px;
+}
+.desktop-global-menu form input#searchsubmit {
+    background: white none repeat scroll 0 0;
+    border: 1px solid #dddddd;
+    color: #333;
+    float: right;
+    font-family: georgia;
+    font-size: 12px;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 2px 7px;
+    padding: 0.1rem 8px;
+}
+// RSS Feed Icon
+.fa.fa-rss-square {
+    color: #a8a8a8;
+}

@@ -1,0 +1,391 @@
+[
+    {
+        "key": "group_569fd73c00c14",
+        "title": "Homepage - Blog",
+        "fields": [
+            {
+                "key": "field_569fd8ce52000",
+                "label": "Staff Blogs",
+                "name": "staff_blogs",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "min": "",
+                "max": "",
+                "layout": "block",
+                "button_label": "Add Row of Blogs",
+                "sub_fields": [
+                    {
+                        "key": "field_56a01bf201f45",
+                        "label": "Blog Row",
+                        "name": "blog_row",
+                        "type": "repeater",
+                        "instructions": "Create an additional Blog Row to add another row of blogs to this section.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "min": 2,
+                        "max": 4,
+                        "layout": "table",
+                        "button_label": "Add Blog",
+                        "sub_fields": [
+                            {
+                                "key": "field_56a01c0701f46",
+                                "label": "Blog Slug",
+                                "name": "blog_slug",
+                                "type": "text",
+                                "instructions": "Enter the slug of the blog. This is the url-safe name of the blog, which can be found by viewing the URL. blogs.plos.org\/sluggoeshere.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "Enter the slug of the blog you would like to display.",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": "",
+                                "readonly": 0,
+                                "disabled": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "field_56a6ba0ffe797",
+                "label": "Biology Life Sciences",
+                "name": "biology_life_sciences",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "min": "",
+                "max": "",
+                "layout": "block",
+                "button_label": "Add Blog",
+                "sub_fields": [
+                    {
+                        "key": "field_56a6ba0ffe798",
+                        "label": "Blog Row",
+                        "name": "blog_row",
+                        "type": "repeater",
+                        "instructions": "Create an additional Blog Row to add another row of blogs to this section.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "min": 2,
+                        "max": 4,
+                        "layout": "table",
+                        "button_label": "Add Row of Blogs",
+                        "sub_fields": [
+                            {
+                                "key": "field_56a6ba0ffe799",
+                                "label": "Blog Slug",
+                                "name": "blog_slug",
+                                "type": "text",
+                                "instructions": "Enter the slug of the blog. This is the url-safe name of the blog, which can be found by viewing the URL. blogs.plos.org\/sluggoeshere.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "Enter the slug of the blog you would like to display.",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": "",
+                                "readonly": 0,
+                                "disabled": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "field_56a6ba31fe79b",
+                "label": "Earth and Environmental Sciences",
+                "name": "earth_and_environmental_sciences",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "min": "",
+                "max": "",
+                "layout": "block",
+                "button_label": "Add Row of Blogs",
+                "sub_fields": [
+                    {
+                        "key": "field_56a6ba31fe79c",
+                        "label": "Blog Row",
+                        "name": "blog_row",
+                        "type": "repeater",
+                        "instructions": "Create an additional Blog Row to add another row of blogs to this section.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "min": 2,
+                        "max": 4,
+                        "layout": "table",
+                        "button_label": "Add Blog",
+                        "sub_fields": [
+                            {
+                                "key": "field_56a6ba31fe79d",
+                                "label": "Blog Slug",
+                                "name": "blog_slug",
+                                "type": "text",
+                                "instructions": "Enter the slug of the blog. This is the url-safe name of the blog, which can be found by viewing the URL. blogs.plos.org\/sluggoeshere.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "Enter the slug of the blog you would like to display.",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": "",
+                                "readonly": 0,
+                                "disabled": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "field_56a6ba51fe79f",
+                "label": "Multi-Disciplinary Sciences",
+                "name": "multi-disciplinary_sciences",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "min": "",
+                "max": "",
+                "layout": "block",
+                "button_label": "Add Row of Blogs",
+                "sub_fields": [
+                    {
+                        "key": "field_56a6ba51fe7a0",
+                        "label": "Blog Row",
+                        "name": "blog_row",
+                        "type": "repeater",
+                        "instructions": "Create an additional Blog Row to add another row of blogs to this section.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "min": 2,
+                        "max": 4,
+                        "layout": "table",
+                        "button_label": "Add Blog",
+                        "sub_fields": [
+                            {
+                                "key": "field_56a6ba51fe7a1",
+                                "label": "Blog Slug",
+                                "name": "blog_slug",
+                                "type": "text",
+                                "instructions": "Enter the slug of the blog. This is the url-safe name of the blog, which can be found by viewing the URL. blogs.plos.org\/sluggoeshere.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "Enter the slug of the blog you would like to display.",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": "",
+                                "readonly": 0,
+                                "disabled": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "field_56a6ba79fe7a3",
+                "label": "Medicine and Health",
+                "name": "medicine_and_health",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "min": "",
+                "max": "",
+                "layout": "block",
+                "button_label": "Add Row of Blogs",
+                "sub_fields": [
+                    {
+                        "key": "field_56a6ba79fe7a4",
+                        "label": "Blog Row",
+                        "name": "blog_row",
+                        "type": "repeater",
+                        "instructions": "Create an additional Blog Row to add another row of blogs to this section.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "min": 2,
+                        "max": 4,
+                        "layout": "table",
+                        "button_label": "Add Blog",
+                        "sub_fields": [
+                            {
+                                "key": "field_56a6ba79fe7a5",
+                                "label": "Blog Slug",
+                                "name": "blog_slug",
+                                "type": "text",
+                                "instructions": "Enter the slug of the blog. This is the url-safe name of the blog, which can be found by viewing the URL. blogs.plos.org\/sluggoeshere.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "Enter the slug of the blog you would like to display.",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": "",
+                                "readonly": 0,
+                                "disabled": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "field_56a6ba91fe7a7",
+                "label": "Research Analysis and Scientific Policy",
+                "name": "research_analysis_and_scientific_policy",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "min": "",
+                "max": "",
+                "layout": "block",
+                "button_label": "Add Row of Blogs",
+                "sub_fields": [
+                    {
+                        "key": "field_56a6ba91fe7a8",
+                        "label": "Blog Row",
+                        "name": "blog_row",
+                        "type": "repeater",
+                        "instructions": "Create an additional Blog Row to add another row of blogs to this section.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "min": 2,
+                        "max": 4,
+                        "layout": "table",
+                        "button_label": "Add Blog",
+                        "sub_fields": [
+                            {
+                                "key": "field_56a6ba91fe7a9",
+                                "label": "Blog Slug",
+                                "name": "blog_slug",
+                                "type": "text",
+                                "instructions": "Enter the slug of the blog. This is the url-safe name of the blog, which can be found by viewing the URL. blogs.plos.org\/sluggoeshere.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "Enter the slug of the blog you would like to display.",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": "",
+                                "readonly": 0,
+                                "disabled": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "multisite-landing\/dynamic-multisite-landing.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    }
+]

@@ -1,0 +1,160 @@
+
+#comments, 
+#respond {
+    line-height: 1.5;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.ping-list,
+#comments {
+	margin-bottom: 45px;
+}
+
+#author,
+#email,
+#url {
+	width: 50%;
+}
+
+.commentmetadata,
+#author,
+#email,
+#url {
+	margin-bottom: 12px;
+	margin-bottom: 0.75rem;
+}
+
+#comment {
+	margin: 0;
+}
+#respond label {
+    display: block;
+    @include font-size(0.8125);
+	margin-left: 0;
+ 	width: auto;
+}
+.logged-in #respond label {
+    display: none;
+}
+.comment-list li, .ping-list li {
+    list-style-type: none;
+    margin-top: 1.3rem;
+    padding: 0;
+}
+
+.comment-list li ul li {
+	margin-right: -32px;
+	margin-right: -2rem;
+}
+
+.comment-header {
+	overflow: hidden;
+}
+
+.comment-content p {
+	margin-bottom: 24px;
+	margin-bottom: 1.5rem;
+}
+
+.bypostauthor {
+}
+
+#comments .navigation {
+	margin-top: 32px;
+	margin-top: 2rem;
+}
+.comment-metadata {
+    font-size: 0.7rem;
+}
+// Comment form styles
+.comment-form label {
+  margin-left: 0;  
+}
+.comments-title {
+	color: #333333;
+    @include font-size(1.125);
+}
+.comment-form label[for="comment"] {
+    display: none;
+}
+.comment-form .form-allowed-tags {
+    display: none;
+}
+.form-submit .submit {
+    background-color: #1e1e1e;
+    border: medium none;
+    border-radius: 3px;
+    box-shadow: none;
+    cursor: pointer;
+    @include font-size(0.875);
+    padding: 0.5rem 1rem;
+    width: auto;
+}
+.comment-form input,
+.comment-form textarea, 
+.comment-form keygen, 
+.comment-form select, 
+.comment-form button {
+    font-family: Arial, sans-serif;
+    @include font-size(0.875);
+}
+.logged-in-as {
+    display: none;
+}
+textarea #comment {
+    margin: 12px 0; 
+    margin: 0 0 0.75rem 0;
+}
+.comment-reply-title {
+    color: #2a2a2a;
+    @include font-size(1.125);
+    font-weight: 300;
+}
+.comment-author.vcard {
+    color: #333;
+    font-size: .9rem;
+    line-height: .9rem;
+}
+.comment-author.vcard a {
+    color: #333;
+    display: block;
+    padding-bottom: 0.1rem;
+}
+.comments-area .comment-meta.commentmetadata {
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+    margin-bottom: 0;
+}
+.comments-area .says {
+    display: none;
+}
+.comment-body p {
+    color: #333;
+    display: table;
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+    margin-bottom: 1rem;
+    padding-left: 0.2rem;
+    width: auto;
+}
+.comment-body .comment-content p {
+    padding-left: 0;
+}
+.comment .reply {
+    clear: both;
+    padding-left: 4.4rem;
+    width: 100%;
+}
+.comment .reply a {
+    color: $blue;
+    font-size: 0.8rem;
+    padding-left: 0.2rem;
+}
+.comment ol.children {
+    margin-left: 4.5rem;
+}
+p.subscribe-to-comments {
+	padding: 24px 0 16px;
+	padding: 1.5rem 0 1rem;
+}

@@ -1,0 +1,62 @@
+/* 04c - Header ----------- */
+header {
+    min-height: auto;
+    overflow: hidden;
+    padding-bottom: 11px;
+    padding-bottom: 0.4rem;
+    position: relative;
+}
+.site-header {
+    margin-top: -10px;
+    margin-bottom: 18px;
+}
+#title {
+	line-height: 1;
+	margin: 40px 0 8px;
+	margin: 2.5rem 0 0.5rem;
+}
+.site-header #title {
+    margin: 0 0 6px;
+}
+#description {
+	line-height: 1.25;
+}
+
+.site-header #title,
+.site-header #title a,
+.site-header #title-area {
+	width: 100%;
+}
+.site-header #title a.logo {
+    margin: 0 auto;
+    width: 299px;
+}
+
+.site-header #title,
+.site-header #title a,
+.site-header #title-area {
+	display: block;
+	overflow: hidden;
+}
+.site-header #description {
+    display: block;
+    font-size: 18px;
+    overflow: hidden;
+    text-align: center;
+    font-family: $header-font;
+    color: $dark-gray;
+}
+.site-header #title-area {
+    display: table;
+    height: 60px;
+    margin: 0 auto;
+    min-height: 60px;
+    padding: 0;
+    width: auto;
+}
+.site-header #title .logo > img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}

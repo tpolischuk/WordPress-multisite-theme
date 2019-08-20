@@ -1,0 +1,359 @@
+// *,
+// *:after,
+// *::before {
+//     -webkit-box-sizing: border-box;
+//     -moz-box-sizing: border-box;
+//     box-sizing: border-box;
+// }
+// html, body, .container, .scroller {
+//     height: 100%;
+// }
+.scroller::-webkit-scrollbar {
+    display: none;
+}
+.scroller::-webkit-scrollbar {
+    display: none;
+}
+// .scroller::-webkit-scrollbar {
+//     display: block;
+// }
+.mobile-menu-icon {
+    display: none;
+    background-color: black;
+    height: 4px;
+    display: block;
+    margin-bottom: 3px;
+}
+.scroller {
+    overflow-y: none;
+}
+
+.scroller,
+.scroller-inner {
+    position: relative;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+    // background: #34495e;
+}
+.menu-trigger {
+    display: none;
+    position: absolute;
+    left: 25px;
+    top: 30px;
+    z-index: 10000;
+    width: 40px;
+    height: 35px;
+}
+.menu-trigger:before {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 40px;
+    height: 6px;
+    content: '';
+}
+
+.menu-trigger .fa-navicon {
+  color: #000;
+  font-size: 30px;
+}
+
+.mp-pusher {
+    position: relative;
+    left: 0;
+    height: 100%;
+}
+
+.mp-menu {
+    position: absolute; /* we can't use fixed here :( */
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 300px;
+    height: 100%;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    -moz-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+}
+
+.mp-level {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1e1e1e;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    -moz-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+}
+
+/* overlays for pusher and for level that gets covered */
+.mp-pusher::after,
+.mp-level::after,
+.mp-level::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    content: '';
+    opacity: 0;
+}
+
+.mp-pusher::after,
+.mp-level::after {
+    background: rgba(0,0,0,0.3);
+    -webkit-transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s;
+    -moz-transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s;
+    transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s;
+}
+
+.mp-level::after {
+    z-index: -1;
+}
+
+.mp-pusher.mp-pushed::after,
+.mp-level.mp-level-overlay::after {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+.mp-level.mp-level-overlay {
+    cursor: pointer;
+}
+
+.mp-level.mp-level-overlay.mp-level::before {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    opacity: 1;
+}
+
+.mp-pusher,
+.mp-level {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+/* overlap */
+.mp-overlap .mp-level.mp-level-open {
+    box-shadow: 1px 0 2px rgba(0,0,0,0.2);
+    -webkit-transform: translate3d(-40px, 0, 0);
+    -moz-transform: translate3d(-40px, 0, 0);
+    transform: translate3d(-40px, 0, 0);
+}
+
+/* First level */
+.mp-menu > .mp-level,
+.mp-menu > .mp-level.mp-level-open,
+.mp-menu.mp-overlap > .mp-level,
+.mp-menu.mp-overlap > .mp-level.mp-level-open {
+    box-shadow: none;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+/* cover */
+.mp-cover .mp-level.mp-level-open {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.mp-cover .mp-level.mp-level-open > ul > li > .mp-level:not(.mp-level-open) {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    -moz-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+}
+
+/* content style */
+.mp-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mp-menu h2 {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 10px;
+    font-weight: 100;
+    margin: 0;
+    padding: 12px 15px 12px 16px;
+}
+
+.mp-menu.mp-overlap h2::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 8px;
+    font-size: 75%;
+    line-height: 1.8;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.1s 0.3s;
+    -moz-transition: opacity 0.3s, -moz-transform 0.1s 0.3s;
+    transition: opacity 0.3s, transform 0.1s 0.3s;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+.mp-menu.mp-cover h2 {
+    border-bottom: 1px solid #666;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #9a9a9a;
+}
+
+.mp-overlap .mp-level.mp-level-overlay > h2::before {
+    opacity: 1;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.mp-menu ul li > a {
+    border-bottom: 1px solid #666;
+    color: #fff;
+    display: block;
+    font-family: Arial,sans-serif;
+    padding: 15px 15px 15px 26px;
+    outline: none;
+    font-size: 12px;
+    -webkit-transition: background 0.3s, box-shadow 0.3s;
+    -moz-transition: background 0.3s, box-shadow 0.3s;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.mp-menu ul li::before {
+    position: absolute;
+    right: 10px;
+    z-index: -1;
+    color: #fff;
+    line-height: 2.5;
+}
+.mp-level > ul > li:first-child > a {
+    // box-shadow: inset 0 -1px rgba(0,0,0,0.2), inset 0 1px rgba(0,0,0,0.2);
+}
+
+// .mp-menu ul li a:hover,
+// .mp-level > ul > li:first-child > a:hover {
+//     background: rgba(0,0,0,0.2);
+//     // box-shadow: inset 0 -1px rgba(0,0,0,0);
+// }
+
+.mp-menu .mp-level.mp-level-overlay > ul > li > a,
+.mp-level.mp-level-overlay > ul > li:first-child > a {
+    box-shadow: inset 0 -1px rgba(0,0,0,0);
+}
+
+.mp-level > ul > li:first-child > a:hover,
+.mp-level.mp-level-overlay > ul > li:first-child > a {
+    box-shadow: inset 0 -1px rgba(0,0,0,0), inset 0 1px rgba(0,0,0,0);
+} /* seems like Chrome 34.0.1847.131 needs the second shadow otherwise the transition breaks */
+
+.mp-back {
+    background: #999999;
+    outline: none;
+    color: #2c2c2c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    padding: 12px 15px 12px 26px;
+    position: relative;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    transition: background 0.3s;
+}
+.mp-back::after {
+    content: "\f104";
+    font-family: FontAwesome;
+    font-size: 1.3em;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+    vertical-align: middle;
+}
+
+.mp-menu .mp-level.mp-level-overlay > .mp-back,
+.mp-menu .mp-level.mp-level-overlay > .mp-back::after {
+    background: transparent;
+    box-shadow: none;
+    color: transparent;
+}
+// Specific Styles for WordPress
+.mp-menu li.menu-item-has-children a::before {
+    content: "\f105";
+    color: #d6d7d7;
+    font-family: FontAwesome;
+    position: absolute;
+    right: 16px;
+}
+.mp-pusher .close-btn {
+    display: none;
+}
+// .mp-pusher .close-btn {
+//     background: #1e1e1e none repeat scroll 0 0;
+//     border: medium none;
+//     color: white;
+//     cursor: pointer;
+//     display: none;
+//     left: 0;
+//     position: absolute;
+//     top: 0;
+//     width: auto;
+//     z-index: 1;
+// }
+.mp-pusher .close-btn {
+    background: transparent;
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    left: -33px;
+    position: absolute;
+    top: 7px;
+    width: auto;
+    z-index: 2;
+}
+.mp-pusher.mp-pushed .close-btn {
+    display: table;
+}
+.mp-pusher .close-btn .fa-border {
+    border: none;
+    border-radius: 0;
+}
+// .mp-menu .menu-item-has-children.foobar a::before {
+//     color: red;
+// }
+/* Fallback example for browsers that don't support 3D transforms (and no JS fallback) */
+/* We'll show the first level only */
+.no-csstransforms3d .mp-pusher,
+.no-js .mp-pusher {
+    padding-left: 300px;
+}
+
+.no-csstransforms3d .mp-menu .mp-level,
+.no-js .mp-menu .mp-level {
+    display: none;
+}
+
+.no-csstransforms3d .mp-menu > .mp-level,
+.no-js .mp-menu > .mp-level {
+    display: block;
+}

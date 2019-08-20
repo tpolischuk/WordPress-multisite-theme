@@ -1,0 +1,36 @@
+// Archive Widget
+.sidebar .widget.widget_archive_extra .widget-wrap {
+    background: none repeat scroll 0 0 $darker-gray1;
+    color: white;
+}
+
+.widget_archive_extra .widget-title {
+    color: #fff;
+    margin-bottom: 0.3rem;
+}
+.sidebar.widget-area .widget_archive_extra ul li {
+    margin-bottom: 0;
+}
+.widget_archive_extra ul li::before {
+    content: "•";
+    color: #fff;
+    margin-right: 19px;
+}
+.widget_archive_extra .widget-wrap a {
+    color: white;
+    font-family: $basic-font;
+    font-size: 0.8125rem;
+}
+.widget_archive_extra a {
+    @include font-size(0.8125rem);
+}
+
+.widget_archive_extra .widget-title {
+  padding-top:25px;
+  padding-left:25px;
+}
+
+.widget_archive_extra ul {
+  padding-left:25px;
+  padding-bottom:25px;
+}

@@ -1,0 +1,34 @@
+.hide-prod {
+    display: block;
+}
+.site-container {
+    background-color: lightblue;
+}
+.site-container {
+    background: white;
+}
+/* Desktops, laptops and iPads (landscape) ----------- */
+@media only screen and (max-width: 1024px) {
+	.site-container {
+	    background: teal;
+	}
+}
+/* iPads (portrait) ----------- */
+@media only screen and (max-width: 758px) {
+	.site-container {
+	    background: brown;
+	}
+}
+/* iPhones (portrait and landscape) ----------- */
+
+@media only screen and (max-width: 480px) {
+	.site-container {
+	    background: pink;
+	}
+}
+/* Desktops, laptops and iPads (landscape) ----------- */
+@media only screen and (min-width: 1025px) {
+  .site-container {
+    background:yellow !important;
+  }
+}

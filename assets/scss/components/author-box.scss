@@ -1,0 +1,93 @@
+
+.author-box,
+.sticky {
+	margin-bottom: 80px;
+	margin-bottom: 5rem;
+}
+
+.author-box,
+.author-box h1,
+.taxonomy-description {
+	line-height: 1.5;
+}
+
+.author-box,
+.breadcrumb,
+.sticky,
+.taxonomy-description {
+	background-color: #f5f5f5;
+	margin-bottom: 48px;
+	margin-bottom: 3rem;
+	overflow: hidden;
+	padding: 32px;
+	padding: 2rem;
+}
+.author-box h1 {
+	margin: 0
+}
+.author-area {
+    border-bottom: 1px solid $light-gray;
+    border-top: 1px solid $light-gray;
+    display: inline-block;
+		margin:0;
+		padding:20px 0 20px 0;
+    width: 100%;
+}
+
+.author-area.first {
+	border-bottom:0;
+}
+
+.author-area.last {
+	border-top:0;
+	margin-bottom:20px;
+}
+
+.author-area.only {
+	margin-bottom:20px;
+}
+
+.author-image {
+    float: left;
+    height: 100px;
+    margin-right: 20px;
+    margin-right: 1.2rem;
+    width: 100px;
+}
+.author-header {
+    display: inline-block;
+}
+
+@for $index from 1 through 6 {
+  .author-header > h#{$index}{
+    float: left;
+    font-size: 1.1rem;
+    margin-right: 16px;
+    margin-right: 1rem;
+  }
+}
+.author-header > h3 {
+@include font-size(1.125);
+  font-weight: normal;
+}
+
+.author-links {
+    float: right;
+    list-style: outside none none;
+}
+.author-links li {
+    display: inline-block;
+}
+.author-links i {
+    color: $blue;
+	font-size: 16px;
+    font-size: 1.2rem;
+    padding: 0 7.5px;
+    padding: 0 0.3rem;
+}
+.author-entry-content > p {
+	color: $darker-gray;
+	@include font-size(.875);
+    @include font-size(0.8125);
+    line-height: 1.2rem;
+}

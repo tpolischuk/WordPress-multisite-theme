@@ -1,0 +1,94 @@
+.local-nav {
+    background: none repeat scroll 0 0 $darker-gray1;
+    margin-bottom: 37px;
+    -webkit-appearance: none;
+  .genesis-nav-menu li a {
+      color: #fff;
+      cursor: pointer;
+      font-family: $header-font;
+  }
+      
+  input {
+      color: #fff;
+     -webkit-appearance: none;
+    }
+  
+  a[title="onclick=”return false;”"]:after {
+      font-family: "FontAwesome";
+      content: "\f107";
+      margin-left: 12px;
+  }
+  
+  .search-form {
+      margin-right: 25px;
+      position: relative;
+      width: 250px;
+      -webkit-appearance: none;
+  }
+  
+  .sub-menu {
+      background: none repeat scroll 0 0 white;
+      border-radius: 0 0 0.2rem 0.2rem;
+      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+      padding-bottom: 20px;
+      padding-top: 10px;
+  }
+
+  .genesis-nav-menu a {
+      border-right: 1px solid #4a4a4a;
+     @include font-size(1.25);
+      padding: 1.3rem 1.9rem;
+  }
+
+  .genesis-nav-menu ul li a {
+      border: medium none;
+      font-size: 0.8rem;
+      padding: 8px 15px 8px;
+  }
+  
+  .genesis-nav-menu li.menu-item-has-children:hover ul li a,
+  .genesis-nav-menu li.menu-item-has-children:focus ul li a,
+  .genesis-nav-menu li.menu-item-has-children:active ul li a {
+      color: black;
+  }
+  
+
+  .genesis-nav-menu li.menu-item-has-children:hover ul li a:hover,
+  .genesis-nav-menu li.menu-item-has-children:focus ul li a:hover,
+  .genesis-nav-menu li.menu-item-has-children:active ul li a:hover,
+  .genesis-nav-menu li.menu-item-has-children:hover ul li a:focus,
+  .genesis-nav-menu li.menu-item-has-children:focus ul li a:focus,
+  .genesis-nav-menu li.menu-item-has-children:active ul li a:focus,
+  .genesis-nav-menu li.menu-item-has-children:hover ul li a:active,
+  .genesis-nav-menu li.menu-item-has-children:focus ul li a:active,
+  .genesis-nav-menu li.menu-item-has-children:active ul li a:active,
+  .genesis-nav-menu li.menu-item-has-children:active ul li.current-menu-item a {
+      color: $blue;
+  }
+  
+  .genesis-nav-menu.genesis-nav-menu li li a:hover {
+      background: transparent;
+  }
+
+  .genesis-nav-menu ul li a::before {
+      content: "•";
+      padding: 0 6px 0 1px;
+      padding: 0 0.35rem 0 0.1rem;
+  }
+  
+  .genesis-nav-menu li.menu-item-has-children:active ul li.current-menu-item a,
+  .genesis-nav-menu li.menu-item-has-children:focus ul li.current-menu-item a,
+  .genesis-nav-menu li.menu-item-has-children:hover ul li.current-menu-item a,
+  .genesis-nav-menu .sub-menu .current-menu-item a {
+      background: transparent none repeat scroll 0 0;
+      color: $blue!important; // Last resort!
+  }
+  
+  .genesis-nav-menu li.menu-item-has-children:hover,
+  .genesis-nav-menu li.menu-item-has-children:focus,
+  .genesis-nav-menu li.menu-item-has-children:active,
+  .genesis-nav-menu.menu-tertiary .current-menu-item a {
+      background-color: transparent;
+  }
+  
+}

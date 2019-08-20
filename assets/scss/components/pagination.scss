@@ -1,0 +1,57 @@
+
+// Pagination styles
+.pagination .nav-links {
+    display: table;
+    width: auto;
+    margin-bottom:15px;
+}
+.page-numbers {
+    background: white none repeat scroll 0 0;
+    border: 1px solid #9b9b9b;
+    color: #9b9b9b;
+    display: inline-block;
+    font-size: 0.7rem;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    width: 23px;
+}
+.prev.page-numbers, .next.page-numbers {
+    width: auto;
+}
+.prev.page-numbers {
+    float: left;
+    margin-right: 0.8rem;
+}
+.next.page-numbers {
+    float: right;
+    margin-left: 0.8rem;
+}
+.prev.page-numbers, .next.page-numbers {
+    border: medium none;
+    width: auto;
+}
+.page-numbers.current,
+.page-numbers:hover,
+.page-numbers:focus,
+.page-numbers:active {
+    border-color: #c3c3c3;
+    color: #c3c3c3;
+}
+.page-numbers.dots {
+    border: medium none;
+    line-height: 18px;
+    vertical-align: middle;
+}
+.page-numbers.dots:hover,
+.page-numbers.dots:active,
+.page-numbers.dots:focus {
+	color: #9b9b9b;
+}
+nav.navigation.pagination {
+    margin-top: 1.5rem;
+}
+.navigation h2.screen-reader-text,
+.meta-nav.screen-reader-text {
+    display: none;
+}

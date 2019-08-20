@@ -1,0 +1,76 @@
+.list-view .topics-featured-image {
+    display: block;
+    margin-bottom: 0.5em;
+    // max-height: 221px;
+    overflow: hidden;
+}
+
+.home {
+  .topics-featured-image.height-cropped {
+    margin-bottom: 7px;
+  }
+}
+
+.list-view .entry-title, .list-view .entry-title a {
+    color: $darker-gray;
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+.list-view .post-info, .list-view .post-meta {
+    clear: none;
+    margin-bottom: 13px;
+    margin-bottom: 0.3rem;
+}
+
+.list-view .post-info {
+    margin-bottom: 0;
+}
+.page-template-category-list main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.category .list-view {
+    padding: 0;
+}
+.medium-image.align-left {
+    float: left;
+    height: 100px;
+    margin-right: 10px;
+    width: 100px;
+}
+.featured-list-section {
+    margin-bottom: 40px;
+    position: relative;
+}
+.featured-list-section .entry-footer {
+    bottom: 7px;
+    position: absolute;
+    text-transform: uppercase;
+}
+.featured-list-section .entry-footer .meta {
+    color: #34529a;
+    // font-size: 0.7rem;
+    @include font-size(.6875);
+    font-weight: bold;
+}
+.featured-list-section .entry-footer .fa-caret-right {
+    margin-left: 3px;
+}
+.category-list {
+    border-bottom: 1px solid $lighter-gray;
+    min-height: 300px;
+}
+.post-list {
+    margin-bottom: 26px;
+    min-height: 296px;
+}
+// Hide multiple subsequent thumbnails if post is in multiple categories
+.medium-image.align-left:nth-child(1) {
+    display: block;
+}
+.medium-image.align-left {
+    display: none;
+}

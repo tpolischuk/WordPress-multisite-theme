@@ -1,0 +1,72 @@
+.genesis-nav-menu.footer-menu {
+    text-transform: capitalize;
+}
+
+.genesis-nav-menu.footer-menu  ul {
+  width: auto;
+}
+
+.genesis-nav-menu.footer-menu li {
+    display: block;
+    float: none;
+}
+
+.genesis-nav-menu.footer-menu.footer-utilities li {
+    display: block;
+    margin-bottom: 7px;
+}
+.genesis-nav-menu.footer-menu .rss-feed-icon a,
+.genesis-nav-menu.footer-menu .rss-feed-icon p {
+    font-size: 20px;
+    padding-left: 0;
+}
+.footer-menu ul li:first-child a,
+.footer-menu ul li:first-child p {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.footer-menu ul#menu-footer-left li:first-child a,
+.footer-menu ul#menu-footer-left li:first-child p {
+    font-weight: normal;
+    text-transform: none;
+}
+.genesis-nav-menu.footer-menu .current-menu-item a,
+.genesis-nav-menu.footer-menu .current-menu-item p {
+    background-color: transparent;
+    color: inherit;
+    text-decoration: underline;
+}
+.genesis-nav-menu.footer-menu .current-menu-item a,
+.genesis-nav-menu.footer-menu .current-menu-item p {
+    color: #2b4481;
+    cursor: pointer;
+}
+.genesis-nav-menu.footer-menu li.btn {
+    display: inline-block;
+    position: relative;
+}
+.genesis-nav-menu.footer-menu li.btn  a,
+.genesis-nav-menu.footer-menu li.btn  p {
+    font-weight: normal;
+    padding: 0.5rem 1.25rem;
+}
+.footer-menu button, 
+.footer-menu input[type="button"], 
+.footer-menu input[type="submit"], .btn {
+    background-color: #2b4481;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+
+.site-footer .one-third:nth-child(2) ul.menu {
+    padding: 8px 60px 0 80px;
+}
+
+.site-footer .one-third:nth-child(3) ul.menu {
+    padding: 8px 0 0 80px;
+}
+
+.site-footer .one-third:nth-child(3) .genesis-nav-menu a,
+.site-footer .one-third:nth-child(3) .genesis-nav-menu p {
+  padding-right: 0;
+}

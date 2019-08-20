@@ -1,0 +1,136 @@
+header {
+
+  .genesis-nav-menu {
+      float: right;
+      margin-top: 48px;
+      margin-top: 3rem;
+      width: auto;
+  }
+
+  .genesis-nav-menu li:hover>ul,
+  .genesis-nav-menu li.sfHover ul {
+      left: auto;
+  }
+
+}
+
+.genesis-nav-menu {
+  clear: both;
+  width: 100%;
+  display: table;
+
+  .menu-item-has-children ul a::after {
+     content: none;
+ }
+
+ ul {
+     width: 100%;
+ }
+
+ li {
+     display: inline-block;
+     float: left;
+     list-style-type: none;
+     letter-spacing: 0.1em;
+     text-align: left;
+ }
+
+ li ul li {
+     display: block;
+     float: none;
+     width: auto;
+ }
+
+ a {
+     display: block;
+     position: relative;
+ }
+ .current-menu-item a {
+     background-color: $dark-gray;
+     color: #fff;
+     cursor: pointer;
+ }
+ li.highlight-menu-item {
+     margin-left: 20px;
+     margin-left: 1.25rem;
+ }
+
+ .highlight-menu-item a {
+     background-color: #1e1e1e;
+ }
+
+ .highlight-menu-item a:hover {
+     background-color: $blue;
+ }
+
+ li ul {
+     left: -9999px;
+     min-width: 340px;
+     position: absolute;
+     width: auto;
+     z-index: 99;
+ }
+
+ li ul ul {
+     margin: -40px 0 0 341px;
+ }
+
+ li ul li a, li ul li p {
+     text-transform: none;
+     font-weight: normal;
+     font-size: 14px;
+     padding: 13px 27px 13px;
+ }
+
+ li:hover ul ul,
+ li.sfHover ul ul {
+     left: -9999px;
+ }
+
+ li:hover,
+ li.sfHover {
+     position: static;
+ }
+
+ li a .sf-sub-indicator,
+ li li a .sf-sub-indicator,
+ li li li a .sf-sub-indicator {
+     position: absolute;
+     text-indent: -9999px;
+ }
+
+ li.right {
+     float: right;
+ }
+
+ li.search {
+     padding: 6px 0 0;
+     padding: 0.375rem 0 0;
+ }
+
+ li.rss a {
+     background: url(images/rss.png) no-repeat center left;
+     margin-left: 20px;
+     margin-left: 1.25rem;
+     padding-left: 20px;
+     padding-left: 1.25rem;
+ }
+
+ li.twitter a {
+     background: url(images/twitter-nav.png) no-repeat center left;
+     padding-left: 24px;
+     padding-left: 1.5rem;
+ }
+}
+
+.global-nav {
+  .genesis-nav-menu li ul li {
+      background: #dadada none repeat scroll 0 0;
+      border-bottom: 1px solid white;
+    }
+}
+
+ul.genesis-nav-menu li:hover>ul,
+ul.genesis-nav-menu li.sfHover ul {
+    left: auto;
+}

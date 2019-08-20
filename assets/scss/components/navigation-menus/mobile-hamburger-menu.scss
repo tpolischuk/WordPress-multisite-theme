@@ -1,0 +1,49 @@
+.genesis-nav-menu.menu-primary {
+    margin: 0 12px 2px;
+    margin: 0 0.7rem;
+    text-transform: uppercase;
+}
+.menu-primary .menu-item-has-children a::after {
+    content: "↓";
+    padding-left: 5px;
+    position: relative;
+}
+.genesis-nav-menu.menu-primary li li a {
+    padding: 0.47rem 1.5rem 0.47rem 0.6rem;
+}
+.genesis-nav-menu.menu-primary a:hover,
+.genesis-nav-menu.menu-primary a:focus,
+.genesis-nav-menu.menu-primary a:active {
+    background-color: $dark-gray;
+    color: #fff;
+    cursor: pointer;
+}
+.genesis-nav-menu.menu-primary li.sfHover a.sf-with-ul {
+    background: $dark-gray;
+    color: white;
+}
+.genesis-nav-menu.menu-primary li.sfHover ul li a.sf-with-ul {
+    background: white;
+    color: $light-gray;
+}
+.genesis-nav-menu.menu-primary li.sfHover ul li a.sf-with-ul:hover,
+.genesis-nav-menu.menu-primary li.sfHover ul li a.sf-with-ul:focus,
+.genesis-nav-menu.menu-primary li.sfHover ul li a.sf-with-ul:active {
+    background: $brown;
+    color: white;
+}
+.genesis-nav-menu.menu-primary li.sfHover ul li.sfHover a.sf-with-ul {
+    background: $brown;
+    color: white;
+}
+.genesis-nav-menu.menu-primary ul li a:hover,
+.genesis-nav-menu.menu-primary ul li a:focus,
+.genesis-nav-menu.menu-primary ul li a:active {
+    background: $brown;
+}
+.menu.genesis-nav-menu.menu-primary {
+    display: none;
+}
+.mobile-search {
+    display: none;
+}

@@ -1,0 +1,88 @@
+
+.sidebar {
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap; /* Safari 6.1+ */
+  justify-content: center;
+}
+
+.sidebar .widget {
+  display: block;
+  margin-bottom: 40px;
+  margin-top: -6px;
+  width: 100%;
+}
+
+.widget-wrap {
+  //padding: 25px 25px 35px;
+}
+
+  .widget_topics-recent_post_widget .widget-wrap, .popular-posts .widget-wrap, .widget_tag_cloud .widget-wrap {
+    padding: 0;
+  }
+
+.sidebar.widget-area ul li {
+    // background: none repeat scroll 0 0 wheat;
+    display: inline-block;
+    list-style-type: none;
+    margin-bottom: 20px;
+    margin-bottom: 1.2rem;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.sidebar.widget-area ul li:nth-last-child(1) {
+    // background: gold none repeat scroll 0 0;
+    margin-bottom: 0;
+}
+
+
+.sidebar.widget-area ul li .post-stats, .rpwe-time {
+    color: #2a2a2a;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 14px;
+}
+
+@for $index from 1 through 6 {
+  .widget > h#{$index},
+  .widget a,
+  .widget ul li {
+  	font-weight: 400;
+	line-height: 1.3rem;
+  }
+}
+.wpp-post-title,
+.rpwe-title {
+    display: block;
+    height: 43px;
+    overflow: hidden;
+    width: 184px;
+}
+.sidebar.widget-area ul.wpp-list li,
+.sidebar.widget-area .rpwe-li.rpwe-clearfix {
+    width: 450px;
+    border: none;
+}
+
+h4.widgettitle, h4.widget-title {
+    font-weight: 100;
+}
+.wpp-list {
+    overflow: visible;
+}
+// Recent Posts Extended
+.recent-posts-extended .widget-wrap {
+    padding: 0;
+}
+.recent-posts-extended .widget-wrap .rpwe-thumb {
+    border: medium none !important;
+    box-shadow: none !important;
+    margin: 0 5px 0 0 !important;
+    padding: 3px !important;
+}
+
+.widget.featured-collection {
+  margin-bottom:15px;
+}

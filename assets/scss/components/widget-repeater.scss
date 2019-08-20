@@ -1,0 +1,57 @@
+.repeater-widget {
+    background-color: $darker-gray;
+    color: white;
+}
+
+.widget.repeater-widget .widget-title {
+    color: #fff;
+    padding-left:15px;
+    padding-top:25px;
+    padding-left:25px;
+    padding-right:25px;
+}
+
+.repeater-widget .widget-title a {
+  color:white;
+}
+
+.repeater-widget a {
+    margin-bottom: 17px;
+    display: block;
+}
+.repeater-widget a:last-child {
+    margin-bottom: 0;
+}
+.repeater-widget img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+.sidebar.widget-area ul.block li {
+    position: relative;
+    width: 100%;
+}
+.sidebar.widget-area ul.inline li {
+    margin: 0 20px 0 0;
+    width: auto;
+}
+.sidebar.widget-area ul.inline li a {
+    display: table-cell;
+    height: 40px;
+    margin: 0;
+    // padding: 0 35px 0 0;
+    vertical-align: middle;
+    width: 20px;
+}
+
+.sidebar.widget-area ul.inline li:nth-last {
+    padding: 0 0px 0 0;
+}
+
+.repeater-widget ul {
+  padding-left:25px;
+  padding-bottom:25px;
+  padding-right:25px;
+}

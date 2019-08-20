@@ -1,0 +1,70 @@
+#exact-target-signup {
+  background:#747F85;
+  padding:20px;
+}
+
+#exact-target-signup input,
+#exact-target-signup h4 {
+  margin-bottom:15px;
+  border:none;
+}
+
+#exact-target-signup h4 {
+  color:white;
+}
+
+#exact-target-signup #exact-target-submit {
+  margin-bottom:0;
+  background: #42b2a9;
+  font-weight:bold;
+  transition: background-color 0.5s ease;
+  -webkit-appearance: none;
+}
+
+#exact-target-signup #exact-target-submit:hover {
+  background-color:#1D877F;
+  transition: background-color 0.5s ease;
+}
+
+#exact-target-success-message {
+  display:none;
+}
+
+#exact-target-success-message p {
+  font-size: 13px;
+  margin-bottom:10px;
+  color:#d6df24;
+}
+
+#exact-target-success-message h4 {
+  font-weight:bold;
+}
+
+#exact-target-names {
+  display:none;
+}
+
+#gdpr-consent-wrapper {
+    color:white;
+    margin-top:5px;
+    margin-bottom:15px;
+}
+
+#gdpr-consent-wrapper p {
+    font-size: 14px;
+}
+
+ #gdpr-consent-wrapper a {
+     font-size:14px;
+     color:white;
+     text-decoration:underline;
+ }
+
+#gdpr-consent-wrapper input {
+    display: inline;
+    float: left;
+    width: inherit;
+    margin:0 5px 0 0;
+    position:relative;
+    top:2px;
+}

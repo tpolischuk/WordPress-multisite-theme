@@ -1,0 +1,146 @@
+
+// Desktop Global Menu
+.global-nav {
+    background-color: #dadada;
+    padding: 0;
+}
+
+.global-nav a,
+.global-nav p {
+    color: #1f1f1f;
+    font-family: $basic-font;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 25px 27px 21px;
+    text-transform: uppercase;
+}
+
+.global-nav .current-menu-item a,
+.global-nav .current-menu-item p {
+  background-color: #555;
+  color: #fff;
+  cursor: pointer;
+}
+
+.global-nav a:hover,
+.global-nav a:focus,
+.global-nav a:active,
+.global-nav p:hover,
+.global-nav p:focus,
+.global-nav p:active {
+    background: #2a2a2a;
+    color: white;
+    cursor: pointer;
+}
+.global-nav li a:hover,
+.global-nav li a:focus,
+.global-nav li a:active,
+.global-nav li p:hover,
+.global-nav li p:focus,
+.global-nav li p:active {
+    background: #2a2a2a;
+    color: white;
+}
+.global-nav li li a:hover,
+.global-nav li li a:focus,
+.global-nav li li a:active,
+.global-nav li li p:hover,
+.global-nav li li p:focus,
+.global-nav li li p:active  {
+    background: #2a2a2a;
+    color: white;
+}
+
+.global-nav .menu-item-has-children a::after,
+.global-nav .menu-item-has-children p::after {
+    content: "\f107";
+    color: #1f1f1f;
+    font-family: FontAwesome;
+    padding-left: 5px;
+    position: relative;
+}
+.global-nav a:hover::after {
+    color: white;
+}
+.rss-feed-icon.menu-item {
+    display: block;
+    height: 21px;
+    position: relative;
+}
+
+.global-nav .right.rss-feed-icon a,
+.global-nav .right.rss-feed-icon p {
+    font-size: 21px;
+    padding: 20px 2px 0 0;
+}
+
+.global-nav .right.rss-feed-icon a:hover,
+.global-nav .right.rss-feed-icon p:hover {
+    background: transparent none repeat scroll 0 0;
+    color: black;
+}
+
+.global-nav li ul li.menu-item-has-children a,
+.global-nav li ul li.menu-item-has-children p {
+    padding-right: 15px;
+}
+
+.global-nav li ul li.menu-item-has-children p {
+  text-transform:none;
+}
+
+.global-nav li ul li.menu-item-has-children a::after,
+.global-nav li ul li.menu-item-has-children p::after {
+    content: "\f105";
+    color: #1f1f1f;
+    font-family: FontAwesome;
+    padding-left: 5px;
+    float: right;
+}
+
+.global-nav li ul li.menu-item-has-children a:hover::after,
+.global-nav li ul li.menu-item-has-children p:hover::after {
+    color: #fff;
+}
+
+.global-nav li ul li.menu-item-has-children ul li a::after,
+.global-nav li ul li.menu-item-has-children ul li p::after {
+    content: "";
+}
+// Global_Desktop_Menu Search Form
+.global-nav form {
+    display: inline-block;
+    float: right;
+    height: auto;
+    margin: 2px 0 0;
+    width: 180px;
+}
+
+.global-nav form input#s {
+    background: none repeat scroll 0 0 #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1) inset;
+    float: left;
+    margin-right: 4px;
+    padding: 2px 8px;
+    width: 105px;
+}
+
+.global-nav form input#searchsubmit {
+    background: white none repeat scroll 0 0;
+    border: 1px solid #dddddd;
+    color: #333;
+    float: right;
+    font-family: georgia;
+    font-size: 12px;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 2px 7px;
+    padding: 0.1rem 8px;
+}
+
+// RSS Feed Icon
+.fa.fa-rss-square {
+    color: #a8a8a8;
+}

@@ -1,0 +1,66 @@
+// Banner
+.site-banner {
+    background-size: cover;
+    clear: both;
+    display: block;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height:auto;
+}
+
+.banner.banner-text-css {
+    display: inline-block;
+    padding-bottom: 15px;
+    padding-bottom: 1.2rem;
+    padding-top: 23px;
+    padding-top: 1.5rem;
+    position: relative;
+    width: 100%;
+}
+.banner.banner-text-css.has-text {
+    display: flex;
+    height: 100px;
+    padding: 0;
+}
+
+.plos-banner-text {
+    color:white;
+    font-family: 'Open Sans', Arial, sans-serif;
+    position:absolute;
+    top:0;
+    font-size:45px;
+    padding-top:25px;
+    padding-left:20px;
+    text-shadow: 1px 1px 8px #000001;
+    letter-spacing: 1px;
+    font-weight:bold;
+}
+
+.plos-banner-text.Black {
+  color:black;
+}
+
+.plos-banner-text.White {
+  color:white;
+}
+
+.banner-logo {
+    float: left;
+    padding-left: 2.5rem;
+    width: 385px;
+}
+h1.banner-logo {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 3rem;
+    justify-content: center;
+    letter-spacing: 1px;
+    margin: 0;
+    text-align: center;
+    text-shadow: 1px 1px 8px #000001;
+    width: auto;
+}

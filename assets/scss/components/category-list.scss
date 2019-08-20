@@ -1,0 +1,17 @@
+.category-listing .entry-content > p, .category-listing .post-info {
+    font-family: $basic-font;
+}
+.category-listing {
+    display: inline-block;
+    width: 100%;
+}
+.category-listing .attachment-xlarge.wp-post-image {
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+}
+.category-listing .addthis_default_style {
+  clear: both;
+  padding-top: 0;
+  display: inline-block;
+}

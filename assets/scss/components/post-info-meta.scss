@@ -1,0 +1,62 @@
+/* 04e - Post Info & Meta ----------- */
+
+.post-info,
+.post-meta {
+    clear: both;
+    line-height: 1.1;
+}
+
+.post-info {
+    margin-bottom: 24px;
+    margin-bottom: 0.5rem;
+}
+.post-info span {
+    color: #999;
+    @include font-size(.75);
+}
+.post-meta {
+    border-top: 1px solid #ccc;
+    padding-top: 24px;
+    padding-top: 1.5rem;
+}
+.categories,
+.tags {
+    display: block;
+}
+.categories > a {
+    color: $blue;
+}
+.date.published.time > a {
+    color: $blue;
+    display: inline;
+}
+.caret-right {
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid;
+    border-top: 4px solid transparent;
+    display: inline-block;
+    height: 0;
+    margin-left: 5px;
+    position: relative;
+    top: 0;
+    width: 0;
+}
+a.post-edit-link {
+    color: seagreen;
+    font-size: 0.7rem;
+    padding-left: 0.9375rem;
+    position: absolute;
+    right: 0.9375rem;
+    top: 0;
+    z-index: 10000;
+}
+
+.meta {
+    color: $blue;
+    font-size: 0.9rem;
+}
+
+.entry-content .wp_orcid_field a {
+  position:relative;
+  top:4px;
+}

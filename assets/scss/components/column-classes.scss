@@ -1,0 +1,72 @@
+/* 04f - Column Classes ----------- */
+.row {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+}
+.five-sixths,
+.four-fifths,
+.four-sixths,
+.one-fifth,
+.one-fourth,
+.one-half,
+.one-sixth,
+.one-third,
+.three-fifths,
+.three-fourths,
+.three-sixths,
+.two-fifths,
+.two-fourths,
+.two-sixths,
+.two-thirds {
+    float: left;
+    margin-left: 4.166666666%; /* 48px / 1152px */
+}
+.one-half, .three-sixths, .two-fourths {
+    width: 47.91%;
+}
+.one-third,
+.two-sixths {
+    width: 30.555555555%; /* 352px / 1152px */
+}
+
+.four-sixths,
+.two-thirds {
+    width: 65.277777777%; /* 752px / 1152px */
+}
+
+.one-fourth {
+    width: 21.875%; /* 252px / 1152px */
+}
+
+.three-fourths {
+    width: 73.958333333%; /* 852px / 1152px */
+}
+
+.one-fifth {
+    width: 16.666666666%; /* 192px / 1152px */
+}
+
+.two-fifths {
+    width: 37.5%; /* 432px / 1152px */
+}
+
+.three-fifths {
+    width: 58.333333333%; /* 672px / 1152px */
+}
+
+.four-fifths {
+    width: 79.166666666%; /* 912px / 1152px */
+}
+
+.one-sixth {
+    width: 13.194444444%; /* 152px / 1152px */
+}
+
+.five-sixths {
+    width: 82.638888888%; /* 952px / 1152px */
+}
+
+.first {
+    margin-left: 0;
+}

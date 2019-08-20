@@ -1,0 +1,167 @@
+.multisite-landing {
+
+  .global-nav {
+      margin-bottom: 28px;
+  }
+
+  main {
+      width: 100%;
+      margin-bottom: 66px;
+  }
+
+  .entry-title {
+      font-weight: 400;
+      margin-bottom: 6px;
+  }
+
+  // Featured post
+
+  .featured-post {
+      float: left;
+      position: relative;
+      width: 545px;
+
+      .featured-image {
+          margin-bottom: 8px;
+      }
+
+      .entry-title a {
+            font-size: 14px;
+            font-family: $basic-font;
+        }
+
+        h1 {
+            color: #2a2a2a;
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 5px;
+            margin-top: -3px; // this makes up for line height
+
+            a {
+              color: #2a2a2a;
+            }
+        }
+
+        .post.entry {
+          margin-bottom: 20px;
+        }
+
+  }
+
+  .recently-featured .post-excerpts h2.entry-title a {
+            font-size: 18px;
+            font-family: $header-font;
+        }
+
+  // Post excerpts (small features)
+
+  .post-excerpts {
+
+    float: right;
+    position: relative;
+    width: 380px;
+
+    .featured-image {
+        width: 70px;
+        height: 70px;
+        float: left;
+        margin-right: 13px;
+      }
+
+      .entry-body {
+        width: 297px;
+        float: right;
+      }
+
+    h2.entry-title a  {
+        font-size: 14px;
+        font-family: $basic-font;
+        }
+
+    .entry-excerpt.wpp-post-title {
+        color: #2a2a2a;
+        font-size: 14px;
+        width: auto;
+        height: 32px;
+        line-height: 16px;
+        margin-bottom: 5px;
+      }
+
+    .entry-excerpt p {
+        font-size: 13px;
+      }
+
+    .row {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+        display: flex;
+	-webkit-box-pack:justify;
+	-moz-box-pack: justify;
+	-ms-flex-pack: justify;
+	-webkit-justify-content: space-between;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+
+    .row:last-child {
+        margin-bottom: 0;
+    }
+
+  }
+
+  .entry-title.wpp-post-title {
+      height: 24px;
+      width: 100%;
+  }
+
+  // Landing Excerpts
+
+  section.landing-excerpts {
+      margin-bottom: 35px;
+  }
+
+  .landing-excerpts .post-excerpts {
+      width: 100%;
+  }
+
+  .row.col-2 .category-listing.landing-excerpt {
+      width: 463px;
+      display: unset;
+  }
+  .row.col-3 .category-listing.landing-excerpt {
+      width: 300px;
+      display: unset;
+  }
+  .row.col-4 .category-listing.landing-excerpt {
+      width: 215px;
+      display: unset;
+  }
+  .landing-excerpt-image {
+    margin-bottom: 4px;
+  }
+
+}
+
+.page .post-excerpts .post.entry {
+    margin-bottom: 31px;
+}
+
+section.clearfix {
+    margin-top: 0;
+}
+
+header.section-header {
+    background-color: $dark-gray;
+    padding: 17px 25px 0px;
+    margin-bottom: 28px;
+
+    h1 {
+        color: white;
+        font-weight: normal;
+        margin-bottom: 13px;
+        font-size: 22px;
+    }
+
+}

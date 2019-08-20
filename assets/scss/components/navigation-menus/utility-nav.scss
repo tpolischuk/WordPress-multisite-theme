@@ -1,0 +1,66 @@
+.utility-nav {
+    margin-bottom: 2px;
+    padding-top: 15px;
+}
+
+.utility-nav li {
+    margin: 0;
+}
+
+.utility-nav li:first-child {
+    margin: 0 25px 0 0;
+}
+.utility-nav a {
+    font-weight: normal;
+    padding: 7px 1px;
+    text-transform: uppercase;
+}
+
+.utility-nav a:hover,
+.utility-nav a:focus,
+.utility-nav a:active {
+    color: $blue;
+    cursor: pointer;
+}
+
+.utility-nav li a {
+    color: $dark-gray;
+    font-family: $basic-font;
+    font-size: 0.675rem;
+}
+
+.utility-nav li.sfHover a.sf-with-ul {
+    background: $dark-gray;
+    color: white;
+}
+
+.utility-nav li.sfHover ul li a.sf-with-ul {
+    background: white;
+    color: $light-gray;
+}
+
+.utility-nav li.sfHover ul li a.sf-with-ul:hover,
+.utility-nav li.sfHover ul li a.sf-with-ul:focus,
+.utility-nav li.sfHover ul li a.sf-with-ul:active {
+    background: $brown;
+    color: white;
+}
+
+.utility-nav li.sfHover ul li.sfHover a.sf-with-ul {
+    background: $brown;
+    color: white;
+}
+
+.utility-nav ul li a:hover,
+.utility-nav ul li a:focus,
+.utility-nav ul li a:active {
+    background: $brown;
+}
+
+.sub-menu {
+   // box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+}
+// Nudget Search Form up
+.utility-nav .search-form {
+    margin-top: -1px;
+}

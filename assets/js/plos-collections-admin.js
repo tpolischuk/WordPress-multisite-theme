@@ -1,0 +1,3 @@
+(function($) {
+	$( '#micCropFeatureImage' ).remove();
+})(jQuery);

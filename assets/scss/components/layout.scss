@@ -1,0 +1,146 @@
+
+/* 04a - Structure ----------- */
+.right {
+    float: right!important;
+}
+.left {
+    float: left!important;
+}
+.site-container {
+    margin: 0 auto;
+    // max-width: 960px;
+    // padding: 0 32px;
+    // padding: 0 2rem;
+    // display: table;
+    width: 100%;
+}
+.wrap, .site-inner {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+.footer-container {
+     @extend .wrap;
+}
+.site-inner {
+    clear: both;
+    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
+    // padding-top: 40px;
+    // padding-top: 2.5rem;
+    width: 100%;
+}
+.clearfix {
+    clear: both;
+    display: inline-block;
+    margin: 1rem 0;
+    width: 100%;
+}
+/* 04b - 1152px CSS Grid ----------- */
+
+aside-alt {
+    width: 15.277777777%; /* 176px / 1152px */
+}
+
+.sidebar.widget-area {
+    // background-color: turquoise;
+    width: 240px;
+}
+
+.content-sidebar-sidebar .sidebar,
+.sidebar-content-sidebar .sidebar,
+.sidebar-sidebar-content .sidebar {
+    width: 37.931034482%; /* 352px / 928px */
+}
+
+.content-sidebar-sidebar main,
+.sidebar-content-sidebar main,
+.sidebar-sidebar-content main {
+    width: 56.896551724%; /* 528px / 928px */
+}
+
+.content-sidebar main, .sidebar-content main, #title-area {
+    width: 690px;
+    // background-color: greenyellow;
+}
+
+.content-sidebar-sidebar .content-sidebar-wrap,
+.sidebar-content-sidebar .content-sidebar-wrap,
+.sidebar-sidebar-content .content-sidebar-wrap {
+    width: 80.555555555%; /* 928px / 1152px */
+}
+
+.content-sidebar .content-sidebar-wrap,
+.full-width-content main,
+.full-width-content .content-sidebar-wrap,
+.sidebar-content .content-sidebar-wrap {
+    width: 100%; /* 1152px / 1152px */
+}
+
+.footer-widgets-1,
+.footer-widgets-2,
+.sidebar-content aside,
+.sidebar-sidebar-content aside,
+main,
+.content-sidebar-wrap,
+footer .gototop,
+aside-alt {
+    float: left;
+}
+
+.content-sidebar-sidebar aside-alt,
+.footer-widgets-3,
+.sidebar,
+.sidebar-content main,
+.sidebar-content-sidebar .content-sidebar-wrap,
+.sidebar-sidebar-content main,
+.sidebar-sidebar-content .content-sidebar-wrap,
+header .widget-area {
+    float: right;
+}
+
+
+.entry, .page .post.entry {
+    margin-bottom: 35px;
+    margin-bottom: 1.8rem;
+    position: relative;
+}
+blockquote {
+    border-left: 5px solid #cccccc;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 0 25px;
+    padding: 0 1.5rem;
+}
+img.attachment-post-thumbnail {
+    display: table;
+    height: auto;
+    margin: 0 auto;
+    width: auto;
+}
+/* 04g - Miscellaneous ----------- */
+p.pages,
+.clear,
+.clear-line,
+.first {
+    clear: both;
+}
+
+.clear-line {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 26px;
+    margin-bottom: 1.625rem;
+}
+
+.alignleft,
+.archive-page {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+.entry-content iframe {
+  max-width:100%;
+}
